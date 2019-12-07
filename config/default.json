@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "key_default",
+  "db": "mongodb://localhost:27017/BIOT24CH_dev",
+  "email": "ahmedbenyahiakanansa@gmail.com",
+  "frontendUrl": "http://localhost:4200/"
+}
