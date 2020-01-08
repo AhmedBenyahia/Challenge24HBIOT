@@ -2,6 +2,11 @@ const mongoose = require('mongoose');
 
 
 const wateringSchema = new mongoose.Schema( {
+    parcelNum: {
+        type: String,
+        length: 6,
+        trim: true,
+    },
     wateringVolume: {
         type: Number,
         required: true,
